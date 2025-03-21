@@ -1,56 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>News - MijPoint</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('gallery_background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            width: 100%;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav1 {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+        }
+        .logo {
+            height: 100px;
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        .news-container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .news-item {
+            margin: 10px 0;
+        }
+    </style>
 </head>
-<style>
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-    ul{
-        list-style-type: none;
-  margin: 0;
-  padding: 0;
-    }
-    .header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-}
-.nav1{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-}
-.logo{
-  height: 100px;
-  width: 100px;
-  align-content: center;
- padding-left: 720px
- ;
-
-}
-</style>
 <body>
     <a href="index.html"><img src="Screenshot 2025-03-18 154452.png" class="logo"></a>
     <ul class="nav1">
@@ -58,6 +68,18 @@
         <li class="topnav"><a href="news.html">News</a></li>
         <li class="topnav"><a href="contact.html">Contact</a></li>
         <li class="topnav"><img style="height: 42px; width: 50px;" src="snacks_picant.jpg"></li>
-      </ul>
+    </ul>
+    
+    <h1>Știri - Galeria MijPoint</h1>
+    <div class="news-container">
+        <div class="news-item">🎨 Expoziția „Lumină și Umbră” se deschide pe 5 aprilie!</div>
+        <div class="news-item">🖌️ Pictorul Alessio Conti vine la MijPoint pentru o sesiune live!</div>
+        <div class="news-item">🖼️ Henri Beaumont va expune o colecție secretă de schițe din 1892, descoperită recent într-un atelier parizian!</div>
+        <div class="news-item">🌊 Louis Dervaux anunță o serie de picturi inspirate din Riviera Franceză, ce vor fi prezentate exclusiv la MijPoint!</div>
+        <div class="news-item">🌧️ Alessio Conti își va publica memoriile despre inspirația din serile ploioase ale Florenței, alături de o nouă serie de lucrări!</div>
+        <div class="news-item">🌳 Lorenzo Marchetti pregătește o expoziție dedicată măslinilor seculari, simbol al timpului și rezistenței!</div>
+    </div>
 </body>
 </html>
+
+

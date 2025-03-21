@@ -6,50 +6,51 @@
     <title>Document</title>
 </head>
 <style>
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-    ul{
-        list-style-type: none;
-  margin: 0;
-  padding: 0;
-    }
-    .header {
-  background-color: #c4ff8a;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-}
-.nav1{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-}
-.logo{
-  height: 100px;
-  width: 100px;
-  align-content: center;
- padding-left: 720px
- ;
-
-}
+body {
+            font-family: Arial, sans-serif;
+            background: url('gallery_background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            width: 100%;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .contact-form {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #bbff77;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;}
 </style>
 <body>
     <a href="index.html"><img src="Screenshot 2025-03-18 154452.png" class="logo"></a>
@@ -59,5 +60,14 @@
         <li class="topnav"><a href="contact.html">Contact</a></li>
         <li class="topnav"><img style="height: 42px; width: 50px;" src="snacks_picant.jpg"></li>
       </ul>
+      <h1>Contactează-ne</h1>
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Nume" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mesaj" rows="5" required></textarea>
+            <button type="submit">Trimite</button>
+        </form>
+    </div>
 </body>
 </html>
